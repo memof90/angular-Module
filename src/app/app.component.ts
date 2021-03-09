@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
-}
+
+  }
+
+  // incremnetNumber() {
+  //   // this.numero = this.numero + 1
+  //   this.numero += 1;
+  // }
+
+  // decrementNumber() {
+  //   this.numero -= 1;
+  // }
+
+
