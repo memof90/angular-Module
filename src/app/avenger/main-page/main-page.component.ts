@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Personaje } from '../interfaces/avenger.interface';
+import { AvengersServices } from '../services/avengers.service';
 
 
 
@@ -29,6 +30,10 @@ export class MainPageComponent {
   addNewPerson( argumento: Personaje ): void {
     console.log(argumento);
     this.personajes.push(argumento);
+  }
+
+  constructor( private avengersServices: AvengersServices) {
+
   }
 
 // two way data binding -> emite y recibe eventos o propiedades
