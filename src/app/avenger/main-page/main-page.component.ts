@@ -24,6 +24,13 @@ export class MainPageComponent {
     nombre: 'capitana',
     poder: 12
   };
+
+  // output
+  addNewPerson( argumento: Personaje ): void {
+    console.log(argumento);
+    this.personajes.push(argumento);
+  }
+
 // two way data binding -> emite y recibe eventos o propiedades
   // cambiarNombre(event: any): void {
   //   event.preventDefault();
