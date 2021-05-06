@@ -25,4 +25,10 @@ export class AvengersServices {
    constructor() {
     console.log('Services Inicialiazed');
    }
+
+   addNewPerson( personaje: Personaje): void {
+    this._personajes.push(personaje);
+   }
+
+
 }
