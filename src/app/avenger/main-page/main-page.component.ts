@@ -21,8 +21,8 @@ export class MainPageComponent {
   ];
 
   nuevo: Personaje = {
-    nombre: '',
-    poder: 0
+    nombre: 'capitana',
+    poder: 12
   };
 // two way data binding -> emite y recibe eventos o propiedades
   // cambiarNombre(event: any): void {
