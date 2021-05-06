@@ -15,7 +15,7 @@ export class AgregarComponent {
     nombre: 'Capitana',
     poder: 12
   };
-  // @Output = nos permite emitir valor al componente padre
+  // @Output = nos permite emitir un valor del componente hijo al componente padre
   // tslint:disable-next-line: no-output-on-prefix
   @Output() onNewPerson: EventEmitter<Personaje> = new EventEmitter();
 
