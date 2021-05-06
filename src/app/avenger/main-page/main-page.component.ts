@@ -10,30 +10,32 @@ import { AvengersServices } from '../services/avengers.service';
 })
 export class MainPageComponent {
 
-  personajes: Personaje[] = [
-    {
-      nombre: 'Iroman',
-      poder: 15000
-    },
-    {
-      nombre: 'Capitan America',
-      poder: 7500
-    },
-  ];
+  // personajes: Personaje[] = [
+  //   {
+  //     nombre: 'Iroman',
+  //     poder: 15000
+  //   },
+  //   {
+  //     nombre: 'Capitan America',
+  //     poder: 7500
+  //   },
+  // ];
 
   nuevo: Personaje = {
     nombre: 'capitana',
     poder: 12
   };
 
+  // get personajes(): Personaje[] {
+  //   return this.avengersServices.personajes;
+  // }
   // output
-  addNewPerson( argumento: Personaje ): void {
-    console.log(argumento);
-    this.personajes.push(argumento);
-  }
+  // addNewPerson( argumento: Personaje ): void {
+  //   console.log(argumento);
+  //   this.personajes.push(argumento);
+  // }
 
-  constructor( private avengersServices: AvengersServices) {
-
+  constructor() {
   }
 
 // two way data binding -> emite y recibe eventos o propiedades
